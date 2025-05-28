@@ -16,4 +16,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 EXPOSE 80
-ENTRYPOINT ["dotnet", "Email-Service-Provider.dll.dll"]
+ENTRYPOINT ["dotnet", "Email-Service-Provider.dll"]
